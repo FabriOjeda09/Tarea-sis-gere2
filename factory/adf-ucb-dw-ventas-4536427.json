@@ -1,0 +1,10 @@
+{
+	"name": "adf-ucb-dw-ventas-4536427",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "brazilsouth"
+}

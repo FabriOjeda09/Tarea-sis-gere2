@@ -1,0 +1,17 @@
+{
+	"name": "Dataw_RimOje",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-ucb-sisger-vacunas-4536427.database.windows.net",
+			"database": "dw_ventas",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "franklin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDk3QjA1NUY3LTZFNjUtNEFBNC04MDlFLTlCMTJBMzc1ODc1MF9iZWM1ODM5Yy1jOWZjLTQ2Y2QtOGI2My04MTExMmY1OWNjOTkiDQp9"
+		}
+	}
+}

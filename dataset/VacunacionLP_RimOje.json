@@ -1,0 +1,31 @@
+{
+	"name": "VacunacionLP_RimOje",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Vacunas_Datalake",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "bronze"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "vacunacion_la_paz.csv",
+				"container": "bronze"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "id_registro;cod_paciente;documento_identidad;nombres;primer_apellido;segundo_apellido;genero;fec_nacimiento;municipio;pueblo_indigena;fec_vacunacion;cod_vacuna;desc_vacuna;nro_dosis;cod_establecimiento;desc_establecimiento;depto;nro_lote;temp_conservacion;edad_dias;via_aplicacion",
+				"type": "String"
+			}
+		]
+	}
+}
